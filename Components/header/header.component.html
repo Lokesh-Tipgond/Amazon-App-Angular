@@ -1,0 +1,29 @@
+<div class="header">
+  <a routerLink="./Home"> <img class="header-logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" /></a>
+
+  <div class="header-search">
+    <input class="header-search-input" type="text" />
+    <button class="fas fa-search search-icon"></button>
+
+  </div>
+  
+  <div class="header-nav">
+    <div class="header-option">
+      <span class="header-optionlineone"> Hello Guest</span>
+      <a routerLink="./Signin"> <span class="header-optionlinetwo"> Sign In</span></a>
+    </div>
+    <div class="header-option">
+      <span class="header-optionlineone"> Return </span>
+      <span class="header-optionlinetwo"> & Orders</span>
+    </div>
+    <div class="header-option">
+      <span class="header-optionlineone"> Your</span>
+      <span class="header-optionlinetwo">Prime</span>
+    </div>
+    <div class="header-option-basket">
+
+      <a class="text" routerLink="./Cart"> <span class="header-optionlinetwo header-basket-count"> <i
+            style="font-size: 20px;" class="fas fa-cart-plus"></i> {{totalItem}}</span></a>
+    </div>
+  </div>
+</div>

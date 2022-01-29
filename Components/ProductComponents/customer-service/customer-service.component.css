@@ -1,0 +1,42 @@
+.containers{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid rgb(4, 5, 4);
+    border-radius: 10px;
+    justify-self: center;
+    background-color: rgb(200, 190, 190);
+    bottom: 50px;
+    }
+    .container-1{
+       margin-bottom: 5px;
+       margin-top: 10px;
+       margin-left: 20px;
+      }
+       .Button{
+      margin-left: 20px;
+      margin-bottom: 15px;
+      width: 90%;
+      height: 40px;
+      border-radius: 5px;
+   
+      }
+           .Input-box{
+               border-radius: 10px;
+              display: inline-block;
+              width: 200px;
+              height: 25px;
+                }
+               
+   .customerImage{ 
+       position: absolute;
+    right: 0;;
+   top: 110px;
+      width: 600px;
+      height: 250px;
+     } 
+     .Lebal-text{   
+       display: inline-block;
+       width: 130px;
+   
+     }
